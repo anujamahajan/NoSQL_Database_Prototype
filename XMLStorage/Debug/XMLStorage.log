@@ -1,0 +1,8 @@
+﻿  XmlParser.cpp
+  xmlElementParts.cpp
+  XmlElement.cpp
+  XmlDocument.cpp
+  Utilities.cpp
+  Tokenizer.cpp
+  Generating Code...
+  XMLStorage.vcxproj -> F:\anu\MS\Syracuse\Spring_2018\CSE_687_OOD\project1\NoSqlDb\Debug\XMLStorage.lib
