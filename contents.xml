@@ -1,0 +1,229 @@
+
+  <database>
+    <dbRecord key="DateTime">
+      <name>
+       DateTime
+      </name>
+      <description>
+        Provides Date Time utilities
+      </description>
+      <date>
+        Tue Feb 6 01:56:33 2018
+      </date>
+      <children>
+        <child>
+          StringUtilities
+        </child>
+      </children>
+      <payload>
+        <filepath>
+          DateTie.h
+        </filepath>
+        <categories>
+          <category>
+            Utiities
+          </category>
+        </categories>
+      </payload>
+    </dbRecord>
+    <dbRecord key="DbCore">
+      <name>
+        DbCore
+      </name>
+      <description>
+        DbCore provides prototye for NoSQL Database
+      </description>
+      <date>
+        Fri Jan 5 00:00:00 2018
+      </date>
+      <children>
+		<child>
+          DateTime
+        </child>
+      </children>
+      <payload>
+        <filepath>
+          DbCore.h
+        </filepath>
+        <categories>
+          <category>
+            Db
+          </category>
+          <category>
+            Query
+          </category>
+        </categories>
+      </payload>
+    </dbRecord>
+    <dbRecord key="Executive">
+      <name>
+        Executive
+      </name>
+      <description>
+        Executes all test cases
+      </description>
+      <date>
+        Tue Jan 16 12:12:12 2018
+      </date>
+      <children>
+	  <child>
+          Test
+        </child>
+		<child>
+          TestUtilities
+        </child>
+		<child>
+          DateTime
+        </child>
+      </children>
+      <payload>
+        <filepath>
+          Executive.cpp
+        </filepath>
+        <categories>
+          <category>
+            DbCore
+          </category>
+          <category>
+            Query
+          </category>
+          <category>
+            Test
+          </category>
+		  <category>
+            XMLStorrage
+          </category>
+        </categories>
+      </payload>
+    </dbRecord>
+    <dbRecord key="Query">
+      <name>
+        Query Package
+      </name>
+      <description>
+        Provides database operation on NoSQL db
+      </description>
+      <date>
+        Tue Feb 6 01:56:33 2018
+      </date>
+      <children>
+        <child>
+          DbCore
+        </child>
+      </children>
+      <payload>
+        <filepath>
+			Query.h
+        </filepath>
+        <categories>
+        </categories>
+      </payload>
+    </dbRecord>
+    <dbRecord key="StringU">
+      <name>
+        String Utilities
+      </name>
+      <description>
+        Provides basic string operations
+      </description>
+      <date>
+        Sun Jan 21 12:00:00 2018
+      </date>
+      <children>
+      </children>
+      <payload>
+        <filepath>
+          StringUtilties.cpp
+        </filepath>
+        <categories>
+          <category>
+            DbCore
+          </category>
+          <category>
+            Query
+          </category>
+          <category>
+            Test
+          </category>
+		  <category>
+            Utility
+          </category>
+        </categories>
+      </payload>
+    </dbRecord>
+    <dbRecord key="Test">
+      <name>
+        Test Package
+      </name>
+      <description>
+        Provides test cases for demonstrating requirements of project1
+      </description>
+      <date>
+        Fri Jan 5 00:00:00 2018
+      </date>
+      <children>
+      </children>
+      <payload>
+        <filepath>
+          Test.cpp
+        </filepath>
+        <categories>
+          <category>
+            Db
+          </category>
+        </categories>
+      </payload>
+    </dbRecord>
+    <dbRecord key="TestU">
+      <name>
+        TestUtilities
+      </name>
+      <description>
+       Provides text executor
+      </description>
+      <date>
+        Fri Jan 5 00:00:00 2018
+      </date>
+      <children>
+      </children>
+      <payload>
+        <filepath>
+          TestUtilities.cpp
+        </filepath>
+        <categories>
+          <category>
+            Test1
+          </category>
+          <category>
+            Test2
+          </category>
+        </categories>
+      </payload>
+    </dbRecord>
+    <dbRecord key="XML">
+      <name>
+        XMLStorrage
+      </name>
+      <description>
+        Provides Persistence of NoSQL database
+      </description>
+      <date>
+        Tue Jan 16 00:00:00 2018
+      </date>
+      <children>
+      </children>
+      <payload>
+        <filepath>
+          itokenizer.cpp
+        </filepath>
+        <categories>
+          <category>
+            Executive
+          </category>
+          <category>
+            XML
+          </category>
+        </categories>
+      </payload>
+    </dbRecord>
+  </database>
